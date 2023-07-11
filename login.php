@@ -49,13 +49,13 @@
             margin-bottom: 16px;
         }
 
-        input[type="submit"] {
+        a[type="submit"] {
             width: 100%;
             background-color: #4CAF50;
             color: #fff;
             padding: 10px;
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
             cursor: pointer;
         }
         input[type="submit"]:hover {
@@ -82,9 +82,10 @@
             
 <label for="mdp">Mot de passe :</label>
             <input type="password" name="mdp" required>
-
-            <a href="mon_compte.php"><input  type="submit" name="connecter" ></a>
-
+            <center>
+            <a href="mon_compte.php"   type="submit" name="connecter"  >connecter</a>
+        </center>
+ 
 
             <div class="error">
                 <!-- Afficher les messages d'erreur ici -->
