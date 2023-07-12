@@ -13,8 +13,8 @@
         <!-- <img src="image/logo.png"  class="logo"> -->
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="login.php">login</a></li>
-            <li><a href="signup.php">sign up</a></li>
+            <!-- <li><a href="login.php">login</a></li> -->
+            <li id="sign"><a href="inscription.php">sign up</a></li>
             
         </ul>
     </div>
@@ -237,6 +237,7 @@
             margin: 0 auto;
             padding: 20px;
 }
+
 .navbar
 {
     width: 85%;
@@ -261,7 +262,6 @@
 .navbar ul li a
 {
     text-decoration: none;
-    color: black;
     text-transform: uppercase;
     float:  right;  
 }
